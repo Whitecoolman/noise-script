@@ -62,7 +62,7 @@ from add_weight_noise import (
 # ============================================
 source_repo = "affinier/affine-star-1"  # Source HuggingFace repo to download from
 target_repo = "WebScraper991923/Affine-S9"  # Your target HuggingFace repo to upload to
-hf_token = "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"  # Set HF_TOKEN env, pass --hf_token, or use cached `hf auth login`
+hf_token = ""  # Set HF_TOKEN env, pass --hf_token, or use cached `hf auth login`
 work_dir = "/home/sn38/albedo"   # Working directory for downloaded models
 
 
